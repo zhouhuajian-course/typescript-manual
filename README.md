@@ -1,5 +1,7 @@
 # TypeScript Manual
 
+https://www.typescriptlang.org/
+
 1. 调试 ts 代码步骤
 ```
 ① 如果没有全局安装 typescript ，全局安装 npm install -g typescript 报错可以--force
