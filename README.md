@@ -48,7 +48,7 @@ function getUserIntro3(name: string | undefined) {
 
 console.log(getUserIntro3(undefined));
 ```
-结论：非空断言操作符(!)告诉TypeScript编译器，某个变量在运行时不会是 null 或 undefined。这在编译器无法确定变量非null非undefined的情况下非常有用。可以告诉编译期，这个变量不可能为 null 或 undefined，从而避免编译错误。但非空断言操作符有一定风险，实际上 变量 可能为 null 或 undefined，使用这个操作符可能导致运行时错误。使用这个非空断言操作符，需要对变量有充分的了解和控制。这个操作符很强大，可以帮助我们在编译时避免不必要的 null 和 undefined 检查，使用时要谨慎，确保不会导致运行时错误。通过合理使用非空断言操作符，可以编写更简洁、更安全的 TypeScript 代码。
+结论：非空断言操作符(!)告诉TypeScript编译器，某个变量在运行时不会是 null 或 undefined。这在编译器无法确定变量非null非undefined的情况下非常有用。可以告诉编译期，这个变量不可能为 null 或 undefined，从而避免编译错误。但非空断言操作符有一定风险，实际上 变量 可能为 null 或 undefined，使用这个操作符可能导致运行时错误。使用这个非空断言操作符，需要对变量有充分的了解和控制。这个操作符很强大，可以帮助我们在编译时避免不必要的 null 和 undefined 检查，使用时要谨慎，确保不会导致运行时错误。通过合理使用非空断言操作符，可以编写更简洁、更安全的 TypeScript 代码。  
 5. `    // "strictPropertyInitialization": true,             /* Check for class properties that are declared but not set in the constructor. */`  
 严格的属性初始化。  
 在JS中，类属性可以声明后，不用初始化，例如
