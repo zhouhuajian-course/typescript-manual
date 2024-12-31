@@ -108,3 +108,4 @@ class Student {
 }
 console.log(new Student());
 ```
+6. 当 TypeScript 转换为 JavaScript 时，接口 interface 会消失，因为 JavaScript 没有接口 interface。
